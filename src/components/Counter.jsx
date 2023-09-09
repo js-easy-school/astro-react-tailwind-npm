@@ -5,11 +5,11 @@ export default function Counter() {
 
     return (
         <div className="flex items-center justify-center gap-x-12">
-            <button onClick={() => setCount((count) => count + 1)} className="px-4 py-2 text-white bg-indigo-600 rounded-md">
+            <button onClick={() => setCount((count) => count + 1)} className="px-2 py-2 text-white bg-indigo-600 rounded-md">
                 Increment
             </button>
             <p>{count}</p>
-            <button onClick={() => setCount((count) => count - 1)} className="px-4 py-2 text-white bg-red-600 rounded-md">
+            <button onClick={() => setCount((count) => count - 1)} className="px-2 py-2 text-white bg-red-600 rounded-md">
                 Decrement
             </button>
         </div>
